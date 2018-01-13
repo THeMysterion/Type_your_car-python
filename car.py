@@ -32,6 +32,6 @@ def main():
     color = input('Car color: ')
     cost = input('Car cost: ')
 
-    mycar = car(name, color, speed)
+    mycar = Car(name, color, speed)
     
 main()
